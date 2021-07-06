@@ -71,7 +71,6 @@ h2{
     color: white;
     background-color: black;
     padding-top: 20px;
-    padding-bottom: 50px;
     }
 .center-align{
     text-align: center;
@@ -91,3 +90,7 @@ h2{
 .icon-padding{
 padding: 10px;
     }    
+
+footer{
+    padding-top: 30px;
+}
