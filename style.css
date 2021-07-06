@@ -1,5 +1,7 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin-left: 0;
+    margin-right: 0;
 }
 .color-red{
     color: rgb(247, 67, 35);
@@ -14,7 +16,7 @@ p{
     text-align: justify;
 }
 h2{
-    font-size: 45px;
+    font-size: 30px;
     font-weight: 800;
 }
 .link-button{
@@ -32,14 +34,20 @@ h2{
 .flexible-container{
 display: flex;
 margin-bottom: 100px;
-
 }
 .link-button{
-    background-image: linear-gradient(skyblue, cyan);
-    padding: 5px 10px;
+    background-image: linear-gradient(rgb(0, 140, 255), skyblue);
+    padding: 10px 20px;
     font-weight: 700;
     color: black;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
-.bg-image
+.bg-image{
+    background-image: url(images/shapes/Frame\ 58.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.our-product{
+    text-align: center;
+}
