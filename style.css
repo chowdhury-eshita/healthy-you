@@ -26,9 +26,6 @@ h2{
     font-size: 30px;
     font-weight: 800;
 }
-.link-button{
-    text-decoration: none;
-}
 .half-width{
     width: 50%;
     margin-left: 50px;
@@ -43,6 +40,7 @@ h2{
     margin-bottom: 100px;
 }
 .link-button{
+    text-decoration: none;
     background-image: linear-gradient(red, tomato);
     padding: 10px 20px;
     font-weight: 700;
@@ -56,7 +54,6 @@ h2{
     background-size: cover;
 }
 .our-product{
-    text-align: center;
     margin-bottom: 50px;
 }
 .product-title-width{
