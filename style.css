@@ -3,6 +3,13 @@ body{
     margin-left: 0;
     margin-right: 0;
 }
+#search{
+    width: 200px;
+    height: 20px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    border-color: royalblue;
+}
 .color-red{
     color: rgb(247, 67, 35);
 }
@@ -24,6 +31,9 @@ h2{
 }
 .half-width{
     width: 50%;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
 }
 .half-width img{
     width: 80%;
@@ -31,16 +41,13 @@ h2{
 .flexible-container{
     display: flex;
     margin-bottom: 100px;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-top: 50px;
 }
 .link-button{
-    background-image: linear-gradient(rgb(0, 140, 255), skyblue);
+    background-image: linear-gradient(red, tomato);
     padding: 10px 20px;
     font-weight: 700;
-    color: black;
-    border-radius: 20px;
+    color: white;
+    border-radius: 15px;
 }
 
 .bg-image{
@@ -50,17 +57,20 @@ h2{
 }
 .our-product{
     text-align: center;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 .product-title-width{
     width: 25%;
-    margin: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: darkgray 10px 10px 30px;
 }
 .product-title-width img{
-    width: 50%;
+    width: 100%;
 }
 .footer-sec{
-    text-align: center;
     color: white;
     background-color: black;
     padding-top: 20px;
@@ -68,4 +78,7 @@ h2{
 }
 .center-align{
     text-align: center;
+}
+.color-gray{
+    color: rgb(88, 88, 88);
 }
